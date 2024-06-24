@@ -1,0 +1,16 @@
+#btn:hover{
+    background-color: aqua;
+    color: brown;
+}
+
+canvas{
+    animation-name: exe;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes exe{
+    from{box-shadow: 10px 10px 10px blue;}
+
+    to{box-shadow: 10px 10px 10px rgb(0, 255, 166);}
+}
